@@ -1,0 +1,52 @@
+/* pages/user/user.wxss */
+.user-card{
+  box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
+  margin: 40rpx 20rpx 0;
+  background: #fff;
+  border-radius: 13rpx;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+  height: 200rpx;
+}
+.user-head{
+  flex-shrink: 0;
+  height: 100rpx;
+  width: 100rpx;
+  background: #F5E069;
+  border-radius: 50%;
+  margin: 0 25rpx 0 40rpx;
+}
+.user-name{
+  flex: 1;
+  font-weight: bold;
+  font-size: 42rpx;
+}
+
+.user-split {
+  height: 8rpx;
+  background: #F9F9F9;
+}
+.user-options{
+  padding-bottom: 8rpx;
+}
+.user-options .option{
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+  margin: 20rpx 28rpx 10rpx 35rpx;
+}
+.user-options .option:last-child {
+  border-bottom: none;
+}
+.user-options .option-title{
+  flex: 1;
+  font-size: 30rpx;
+  color: rgba(29, 29, 38, 0.8);
+}
+.user-options .option-arrow{
+  width: 11rpx;
+  height: 18rpx;
+}

@@ -1,0 +1,111 @@
+/* pages/home/home.wxss */
+
+.hot-card {
+  height: 330rpx;
+  margin: 30rpx 50rpx 0;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
+  border-radius: 13rpx;
+}
+
+.hot-name {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 40rpx;
+  top: 40rpx;
+}
+.hot-name-text{
+  margin:0 15rpx;
+}
+
+.hot-name-slash {
+  width: 24rpx;
+  height: 39rpx;
+}
+
+.hot-info {
+  position: absolute;
+  width: 240rpx;
+  height: 180rpx;
+  left: 50rpx;
+  bottom: 0;
+}
+
+.hot-product {
+  position: absolute;
+  height: 240rpx;
+  width: 240rpx;
+  right: 60rpx;
+  top: 20rpx;
+}
+
+.list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80rpx 0 50rpx;
+}
+.list-title-text{
+  margin:0 20rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+.list-title-slash {
+  width: 21rpx;
+  height: 35rpx;
+}
+
+.product-row{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 50rpx 30rpx;
+}
+.product-card{
+  flex:1;
+  background: #fff;
+  box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
+  border-radius: 13rpx
+}
+.product-card:first-child {
+  margin-right: 27rpx;
+}
+.product-image{
+  width: 100%;
+  border-radius: 13rpx 13rpx 0 0;
+}
+.product-name{
+  margin: 0 21rpx;
+  font-size: 28rpx;
+  color: rgba(29, 29, 38, 0.8);
+  line-height: 40rpx;
+}
+.product-meta {
+  display: flex;
+  align-items: center;
+  margin: 9rpx 21rpx 15rpx;
+}
+.product-money,
+.product-add{
+  background: #f9e777;
+  border-radius: 50%;
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  color: #34373D;
+  font-weight: 900;
+}
+.product-money {
+  font-size: 24rpx;
+}
+
+.product-add {
+  font-size: 32rpx;
+}
+.product-price {
+  flex: 1;
+  margin: 0 10rpx;
+  font-size: 28rpx;
+}
