@@ -1,3 +1,25 @@
+# 项目截图
+
+主页
+
+![主页](./img/home.png)
+
+商品详情页
+
+![商品详情](./img/detail.png)
+
+商品评论页
+
+![商品评论](./img/comment.png)
+
+订单页
+
+![订单](./img/order.png)
+
+购物车页
+
+![购物车](./img/trolley.png)
+
 # Wafer2 快速开发 Demo
 
 本仓库是最简版的 Wafer2 开发套件，建议配合腾讯云微信小程序开发者工具解决方案一起使用。适用于想要使用 Wafer SDK 开发的开发者，Demo 对 SDK 进行了详细的使用和介绍，降低开发者的学习成本。
